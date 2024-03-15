@@ -7,19 +7,19 @@ To run the app locally, follow these steps:
 
 1. Clone this repository to your local machine
 
-``bash
+``
 git clone https://github.com/namtran6701/Visual_Question_Answering.git
 ``
 
 2. Install the required dependencies using pip
 
-``bash
+``
 pip install -r requirements.txt
 ``
 
 3. Run the Streamlit app
 
-``bash
+``
 streamlit run app.py
 ``
 
