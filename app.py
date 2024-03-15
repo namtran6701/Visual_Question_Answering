@@ -32,17 +32,19 @@ def display_selected_image(selected_image_path):
 
 def process_image_and_question(image_file, selected_image_path, question, model, processor):
     if (image_file is not None or selected_image_path) and question:
-        if selected_image_path:
-            image = Image.open(selected_image_path)
-        else:
+        if image_file:
             image = Image.open(image_file)
+        elif selected_image_path:
+            image = Image.open(selected_image_path)
 
         inputs = processor(image, question, return_tensors="pt")
         output = model.generate(**inputs)
         answer = processor.decode(output[0], skip_special_tokens=True)
-
+        
+        st.image(image, caption="Uploaded Image", width=400)
         st.subheader("Answer:")
         st.write(answer)
+        
 
 def main():
     display_title()
