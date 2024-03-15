@@ -13,11 +13,15 @@ git clone https://github.com/namtran6701/Visual_Question_Answering.git
 
 2. Install the required dependencies using pip
 
+``bash
 pip install -r requirements.txt
+``
 
 3. Run the Streamlit app
 
+``bash
 streamlit run app.py
+``
 
 4. Open your web browser and navigate to http://localhost:8501 to access the app.
 
