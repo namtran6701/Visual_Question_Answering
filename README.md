@@ -9,7 +9,7 @@ To run the app locally, follow these steps:
 
 ``bash
 git clone https://github.com/namtran6701/Visual_Question_Answering.git
-
+``
 2. Install the required dependencies using pip
 
 pip install -r requirements.txt
