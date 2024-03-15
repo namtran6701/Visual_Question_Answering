@@ -6,12 +6,15 @@ This Streamlit app allows users to perform visual question answering (VQA) using
 To run the app locally, follow these steps:
 
 1. Clone this repository to your local machine
-https://github.com/namtran6701/Visual_Question_Answering.git
+
+git clone https://github.com/namtran6701/Visual_Question_Answering.git
 
 2. Install the required dependencies using pip
+
 pip install -r requirements.txt
 
 3. Run the Streamlit app
+
 streamlit run app.py
 
 4. Open your web browser and navigate to http://localhost:8501 to access the app.
