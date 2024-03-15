@@ -7,6 +7,7 @@ To run the app locally, follow these steps:
 
 1. Clone this repository to your local machine
 
+``bash
 git clone https://github.com/namtran6701/Visual_Question_Answering.git
 
 2. Install the required dependencies using pip
@@ -19,7 +20,7 @@ streamlit run app.py
 
 4. Open your web browser and navigate to http://localhost:8501 to access the app.
 
-Usage
+## Usage
 
 1. Upon opening the app, users are presented with a title and instructions to select an example image or upload their own image.
 
